@@ -346,10 +346,17 @@ textarea:focus {
     margin-bottom: 4rem;
 }
 
+.back-home,
 .back-link {
     font-size: 0.9rem;
     color: #999;
     cursor: pointer;
+    transition: color 0.2s;
+}
+
+.back-home:hover,
+.back-link:hover {
+    color: var(--primary-color);
 }
 
 .brand-logo {
