@@ -148,6 +148,10 @@ textarea:focus {
     transform: scale(0.98);
 }
 
+.hidden {
+    display: none !important;
+}
+
 /* 처방전 결과 화면 (매거진 스타일) */
 #result-screen {
     background: #fff;
