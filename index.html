@@ -46,30 +46,36 @@
             </div>
 
             <!-- 분석 중 대기 화면 (기본적으로 숨김) -->
+            <!-- 분석 중 대기 화면 (화사한 웹 버전) -->
             <div id="waiting-screen" class="hidden">
-                <div class="ai-container">
-                    <div class="back-btn">←</div>
-                    <div class="ai-title">AI PRESCRIPTION</div>
-
-                    <div class="glow-container">
-                        <div class="glow-orb"></div>
-                        <div class="sparkle">✦</div>
+                <div class="sentiment-container">
+                    <div class="flower-bg-glow"></div>
+                    <div class="waiting-header">
+                        <div class="back-link">← 처음으로</div>
+                        <div class="brand-logo">Flora AI</div>
                     </div>
 
-                    <h2 class="waiting-title">당신의 마음을 닮은 꽃을<br>찾는 중입니다...</h2>
-                    <p class="waiting-desc">AI가 당신의 소중한 이야기를<br>깊이 읽어내려가고 있어요</p>
-
-                    <div class="progress-container">
-                        <div class="progress-bar"></div>
-                        <p class="progress-text">● PROCESSING SENTIMENT</p>
+                    <div class="animation-wrapper">
+                        <div class="flower-bloom-loader">
+                            <div class="petal p1"></div>
+                            <div class="petal p2"></div>
+                            <div class="petal p3"></div>
+                            <div class="petal p4"></div>
+                            <div class="inner-circle"></div>
+                        </div>
                     </div>
 
-                    <nav class="bottom-nav">
-                        <div class="nav-icon">🏠</div>
-                        <div class="nav-icon active">⚙️</div>
-                        <div class="nav-icon">❤️</div>
-                        <div class="nav-icon">👤</div>
-                    </nav>
+                    <div class="text-content">
+                        <h2 class="waiting-title">당신의 마음에 꼭 맞는 꽃을<br>고르고 있어요...</h2>
+                        <p class="waiting-desc">이야기 속에 담긴 소중한 진심들을<br>하나하나 소중히 살피고 있답니다.</p>
+                    </div>
+
+                    <div class="bottom-loading">
+                        <div class="glass-bar">
+                            <div class="fill-progress"></div>
+                        </div>
+                        <p class="status-message">당신을 위한 가장 따뜻한 향기를 찾는 중</p>
+                    </div>
                 </div>
             </div>
         </main>

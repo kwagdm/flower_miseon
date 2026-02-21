@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const inputCard = document.querySelector('.card');
     const waitingScreen = document.getElementById('waiting-screen');
     const submitBtn = document.getElementById('submit-btn');
-    const backBtn = document.querySelector('.back-btn');
+    const backBtn = document.querySelector('.back-link');
 
     // 처방받기 버튼 클릭 시
     submitBtn.addEventListener('click', () => {
