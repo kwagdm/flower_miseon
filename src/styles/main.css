@@ -148,6 +148,162 @@ textarea:focus {
     transform: scale(0.98);
 }
 
+/* 처방전 결과 화면 (매거진 스타일) */
+#result-screen {
+    background: #fff;
+    color: #333;
+    border-radius: 32px;
+    height: 100%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+.magazine-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.result-header {
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.logo-small {
+    font-weight: 800;
+    color: var(--primary-color);
+    letter-spacing: 0.1rem;
+}
+
+.prescription-id {
+    font-size: 0.7rem;
+    color: #bbb;
+    letter-spacing: 0.05rem;
+}
+
+.magazine-hero {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+}
+
+.magazine-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2.5rem 2rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+    color: white;
+    text-align: left;
+}
+
+.serif {
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+#flower-name {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0.2rem;
+}
+
+#flower-latin {
+    font-style: italic;
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
+
+.prescription-body {
+    padding: 3rem 2rem;
+    text-align: left;
+}
+
+.meta-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #999;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.prescription-title {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: #1a1a1a;
+    margin-bottom: 2.5rem;
+}
+
+.letter-content {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #4a4a4a;
+    margin-bottom: 4rem;
+}
+
+.letter-content p {
+    margin-bottom: 1.5rem;
+}
+
+.letter-content strong {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.share-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.icon-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    background: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+}
+
+.icon-btn:hover {
+    background: #fdfdfd;
+    transform: translateY(-2px);
+}
+
+.share-trigger {
+    flex-grow: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 30px;
+    background: #1a1a1a;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.share-trigger:hover {
+    background: #333;
+}
+
 /* 대기 화면 개선 (화사한 웹 버전) */
 #waiting-screen {
     background: linear-gradient(135deg, #fff5f5 0%, #fff9f9 100%);
