@@ -25,36 +25,136 @@ body {
 
 #app {
     width: 100%;
-    max-width: 480px;
-    padding: 2rem;
-    background: white;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-    border-radius: 24px;
+    max-width: 420px;
+    background: transparent;
     text-align: center;
 }
 
-header h1 {
-    color: var(--primary-color);
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
+.card {
+    background: white;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
 }
 
-.subtitle {
-    font-size: 0.9rem;
-    opacity: 0.7;
+.banner-image {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
 }
 
-#container {
-    margin: 3rem 0;
+.banner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.loading {
-    color: #ccc;
-    font-style: italic;
+.banner-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.content {
+    padding: 2.5rem 1.5rem;
+}
+
+.main-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    color: #1a1a1a;
+}
+
+.description {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.input-group {
+    background: #f8f9ff;
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    border: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: 1rem;
+    resize: none;
+    color: #333;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.security-info {
+    font-size: 0.75rem;
+    color: #999;
+    margin-top: 1rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 2.5rem;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background: #eee;
+    border-radius: 50%;
+}
+
+.dot.active {
+    width: 24px;
+    border-radius: 3px;
+    background: #8e2de2;
+}
+
+.primary-btn {
+    width: 100%;
+    padding: 1.2rem;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(74, 0, 224, 0.2);
+    transition: transform 0.2s;
+}
+
+.primary-btn:active {
+    transform: scale(0.98);
+}
+
+.disclaimer {
+    font-size: 0.7rem;
+    color: #bbb;
+    margin-top: 1.5rem;
 }
 
 footer {
-    font-size: 0.8rem;
-    opacity: 0.5;
-    margin-top: 2rem;
+    display: none;
+    /* 디자인 가이드에 맞춰 불필요한 영역 제거 */
 }
