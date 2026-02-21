@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Arrangement Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;500;700&family=Outfit:wght@300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <header class="main-header">
+            <div class="logo">Florist</div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1>Create Your Own Arrangement</h1>
+                <p>Select fresh flowers and design your unique bouquet.</p>
+                <div class="controls">
+                    <button id="undo-btn" class="btn-secondary" title="Undo last action">
+                        ↩️ Undo
+                    </button>
+                    <div class="rotation-control">
+                        <label for="rotation-slider">Rotation</label>
+                        <input type="range" id="rotation-slider" min="-180" max="180" value="0" disabled>
+                    </div>
+                </div>
+            </section>
+
+            <div class="workspace-container">
+                <!-- Flower Selection Area -->
+                <aside class="flower-sidebar">
+                    <h2>Flowers</h2>
+                    <div class="flower-list" id="flower-list">
+                        <!-- Flowers will be injected here via JS -->
+                        <div class="flower-item-placeholder">Loading flowers...</div>
+                    </div>
+                </aside>
+
+                <!-- Arrangement Canvas_ -->
+                <section class="canvas-area">
+                    <img src="assets/flower_pot.png" class="flower-pot" alt="Flower Pot">
+                </section>
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <p>&copy; 2026 Flower Arrangement Service. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
