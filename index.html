@@ -44,13 +44,41 @@
                     <p class="disclaimer">이 서비스는 AI가 분석한 정서적인 추천이며 의료 상담을 대체할 수 없습니다.</p>
                 </section>
             </div>
+
+            <!-- 분석 중 대기 화면 (기본적으로 숨김) -->
+            <div id="waiting-screen" class="hidden">
+                <div class="ai-container">
+                    <div class="back-btn">←</div>
+                    <div class="ai-title">AI PRESCRIPTION</div>
+
+                    <div class="glow-container">
+                        <div class="glow-orb"></div>
+                        <div class="sparkle">✦</div>
+                    </div>
+
+                    <h2 class="waiting-title">당신의 마음을 닮은 꽃을<br>찾는 중입니다...</h2>
+                    <p class="waiting-desc">AI가 당신의 소중한 이야기를<br>깊이 읽어내려가고 있어요</p>
+
+                    <div class="progress-container">
+                        <div class="progress-bar"></div>
+                        <p class="progress-text">● PROCESSING SENTIMENT</p>
+                    </div>
+
+                    <nav class="bottom-nav">
+                        <div class="nav-icon">🏠</div>
+                        <div class="nav-icon active">⚙️</div>
+                        <div class="nav-icon">❤️</div>
+                        <div class="nav-icon">👤</div>
+                    </nav>
+                </div>
+            </div>
         </main>
 
         <footer>
             <p>&copy; 2024 Flower Prescription. K-Floral Identity.</p>
         </footer>
     </div>
-    <script src="src/scripts/main.js" type="module"></script>
+    <script src="src/scripts/main.js"></script>
 </body>
 
 </html>
