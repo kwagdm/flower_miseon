@@ -1,6 +1,6 @@
-# 🌸 Flora AI - 오늘의 꽃 처방전
+# 🌸 FlorAI - 오늘의 꽃 처방전
 
-당신의 마음에 꼭 맞는 꽃 한 송이와 따뜻한 메시지를 선물하는 AI 꽃 처방 서비스입니다. 3~40대 여성 고객을 위한 화사하고 감성적인 웹 경험을 제공합니다.
+당신의 마음에 꼭 맞는 꽃 한 송이와 따뜻한 메시지를 선물하는 정서 지원 서비스입니다. 3~40대 여성 고객을 위한 화사하고 감성적인 웹 경험을 제공합니다.
 
 ## 🚀 개발 기록 (Commit History)
 
@@ -25,13 +25,19 @@
   - 웹 브라우저 환경에 최적화된 레이아웃 및 여백 조정
 
 - **[UI/UX] Implement magazine-style prescription result screen with serif typography**
-  - 고품질 고해상도 꽃 이미지 배너를 활용한 매거진 스타일 결과 페이지 구현
-  - 감성적인 세리프(Serif) 폰트와 편지 형태의 'From AI Florist' 레이아웃 적용
+  - 고해상도 꽃 이미지 배너를 활용한 매거진 스타일 결과 페이지 구현
+  - 감성적인 세리프(Serif) 폰트와 편지 형태의 'From your Florist' 레이아웃 적용
   - 대기 화면에서 결과 화면으로 이어지는 5초간의 부드러운 전환 인터랙션 구현
-  - 처방전 고유 번호(Prescription NO. 042) 등 디테일한 요소 추가
+
+### Phase 3: Intelligence & Data (두뇌 및 데이터)
+- **[Data] Implement Phase 3-1: Foundation with RDA datasets and LocalStorage**
+  - 농촌진흥청(RDA) 공공데이터 기반 10종의 꽃 지식 베이스 구축
+  - 키워드 매칭 엔진을 통한 동적 꽃 처방 로직(v1.0) 구현
+  - `LocalStorage`를 활용한 사용자 고민 및 최근 처방 내역 저장 기능 추가
+  - (Humane Touch) 브랜드명을 `FlorAI`로 개편하고 UI 내 차가운 'AI' 용어 전면 제거
 
 ---
 ## 🛠 Tech Stack
 - **Frontend**: HTML5, Vanilla CSS, JavaScript (ES6+)
-- **Design Concept**: Flora AI Warm Mode (Pastel Pink, Warm White, Gold)
-- **AI Matching**: Sentiment Analysis Based Flower Recommendation (Upcoming)
+- **Design Concept**: FlorAI Warm Mode (Pastel Pink, Warm White, Gold)
+- **AI Matching**: Gemini 1.5 Pro Based Sentiment Analysis (Scheduled)
