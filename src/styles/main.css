@@ -234,14 +234,9 @@ textarea:focus {
     text-align: left;
 }
 
-.meta-info {
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.8rem;
-    color: #999;
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
+.florist-label {
+    color: var(--primary-color);
+    font-weight: 500;
 }
 
 .prescription-title {
