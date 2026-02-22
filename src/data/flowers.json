@@ -1,5 +1,160 @@
 {
-    "description": "한국 공공 API 기반 꽃말 데이터 (Korean Package)",
-    "version": "1.0.0",
-    "flowers": []
+    "metadata": {
+        "description": "농촌진흥청 국립원예특작과학원 오늘의 꽃 데이터 기반 지식 베이스",
+        "version": "1.1.0",
+        "source": "Rural Development Administration (RDA), South Korea",
+        "license": "Public Domain (KOGL Type 1)"
+    },
+    "flowers": [
+        {
+            "id": "smoke-tree",
+            "name": "안개나무",
+            "latinName": "Cotinus coggygria",
+            "languageOfFlowers": "희망의 내일, 위안",
+            "meaning": "안개나무는 멀리서 보면 자욱한 연기 속에 갇힌 것 같지만, 가까이서 보면 그 어떤 나무보다 폭신하고 부드러운 꽃을 피워냅니다. 번아웃과 막막함 속에 있는 당신에게 '흐릿함조차 아름다울 수 있다'는 위로를 건넵니다.",
+            "tags": [
+                "번아웃",
+                "막막함",
+                "위로",
+                "휴식",
+                "희망"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&q=80&w=1200"
+        },
+        {
+            "id": "sunflower",
+            "name": "해바라기",
+            "latinName": "Helianthus annuus",
+            "languageOfFlowers": "프라이드, 일편단심, 당신을 우러러봅니다",
+            "meaning": "태양만을 바라보는 해바라기는 강인한 생명력과 긍정의 에너지를 상징합니다. 자신감을 잃었거나 새로운 도전을 앞둔 당신에게 '당신은 충분히 빛날 자격이 있다'는 응원을 보냅니다.",
+            "tags": [
+                "자신감",
+                "열정",
+                "응원",
+                "성공",
+                "에너지"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1597423498219-04418210827d?auto=format&fit=crop&q=80&w=1200"
+        },
+        {
+            "id": "lavender",
+            "name": "라벤더",
+            "latinName": "Lavandula angustifolia",
+            "languageOfFlowers": "침묵, 나에게 대답해주세요, 정절",
+            "meaning": "보라빛 물결과 편안한 향기를 가진 라벤더는 불안한 마음을 차분하게 가라앉혀 줍니다. 불면증이나 극심한 스트레스로 밤잠을 설치는 당신에게 '잠시 모든 것을 내려놓아도 괜찮다'는 평온함을 선물합니다.",
+            "tags": [
+                "불안",
+                "스트레스",
+                "불면",
+                "안정",
+                "정화"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1591017403286-fd8ba8208799?auto=format&fit=crop&q=80&w=1200"
+        },
+        {
+            "id": "lily-of-the-valley",
+            "name": "은방울꽃",
+            "latinName": "Convallaria majalis",
+            "languageOfFlowers": "틀림없이 행복해집니다, 다시 찾은 행복",
+            "meaning": "작고 하얀 종 모양의 은방울꽃은 가장 순수하고 깊은 축복을 의미합니다. 소중한 사람과의 이별이나 슬픔을 겪고 있는 당신에게 '반드시 다시 행복의 종소리가 들릴 것'이라는 약속을 건넵니다.",
+            "tags": [
+                "슬픔",
+                "별리",
+                "축복",
+                "행복",
+                "순수"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1510214643301-49635be9f70d?auto=format&fit=crop&q=80&w=1200"
+        },
+        {
+            "id": "freesia",
+            "name": "프리지아",
+            "latinName": "Freesia refracta",
+            "languageOfFlowers": "당신의 시작을 응원합니다, 청함",
+            "meaning": "봄을 알리는 노란 프리지아는 새로운 시작의 설렘을 담고 있습니다. 입학, 취업 등 인생의 새로운 챕터를 여는 당신에게 '당신의 앞날이 노란 꽃길 같기를' 바라는 진심 어린 축하를 보냅니다.",
+            "tags": [
+                "시작",
+                "설렘",
+                "축하",
+                "청춘",
+                "입학"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1572454591674-2739f3efd6a4?auto=format&fit=crop&q=80&w=1200"
+        },
+        {
+            "id": "lisianthus",
+            "name": "리시안셔스",
+            "latinName": "Eustoma exaltatum",
+            "languageOfFlowers": "변치 않는 사랑, 우아함",
+            "meaning": "장미만큼 화려하지만 더 부드러운 곡선을 가진 리시안셔스는 깊고 한결같은 마음을 상징합니다. 관계에 지쳤거나 진실된 사랑을 꿈꾸는 당신에게 '당신의 사랑은 그 자체로 충분히 우아하다'는 메시지를 전합니다.",
+            "tags": [
+                "사랑",
+                "관계",
+                "우아",
+                "진심",
+                "위안"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1563241527-3004b7be09d6?auto=format&fit=crop&q=80&w=1200"
+        },
+        {
+            "id": "camellia",
+            "name": "동백꽃",
+            "latinName": "Camellia japonica",
+            "languageOfFlowers": "누구보다 당신을 사랑합니다, 비밀스러운 사랑",
+            "meaning": "추운 겨울을 이겨내고 붉게 피어나는 동백은 고결한 인내와 사랑을 뜻합니다. 외로운 투쟁을 이어가고 있는 당신에게 '차가운 계절 끝에 피어날 당신의 붉은 열정'을 응원합니다.",
+            "tags": [
+                "외로움",
+                "인내",
+                "열정",
+                "겨울",
+                "고결"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1589133182899-70335e670494?auto=format&fit=crop&q=80&w=1200"
+        },
+        {
+            "id": "tulip",
+            "name": "튤립",
+            "latinName": "Tulipa gesneriana",
+            "languageOfFlowers": "영원한 사랑, 매혹 (노란색: 헛된 사랑, 분홍색: 애정과 배려)",
+            "meaning": "정갈한 모양과 다양한 색을 가진 튤립은 그 색마다 다른 이야기를 담고 있습니다. 무미건조한 일상에 지루함을 느끼는 당신에게 '다양한 색깔의 감정을 다시 느껴보라'는 생동감을 처방합니다.",
+            "tags": [
+                "지루함",
+                "일상",
+                "감정",
+                "생동감",
+                "배려"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1520323232427-6b62003c2148?auto=format&fit=crop&q=80&w=1200"
+        },
+        {
+            "id": "gerbera",
+            "name": "거베라",
+            "latinName": "Gerbera jamesonii",
+            "languageOfFlowers": "신비, 풀 수 없는 수수께끼, 수줍음",
+            "meaning": "크고 화려한 꽃잎이 방사형으로 퍼져나가는 거베라는 기쁨과 환희의 화신입니다. 울적한 기분에 갇혀 있는 당신에게 '수수께끼 같은 인생을 즐길 수 있는 호기심'을 일깨워줍니다.",
+            "tags": [
+                "우울",
+                "기쁨",
+                "호기심",
+                "환희",
+                "치유"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1549413280-482f34237ebc?auto=format&fit=crop&q=80&w=1200"
+        },
+        {
+            "id": "baby-breath",
+            "name": "안개초",
+            "latinName": "Gypsophila paniculata",
+            "languageOfFlowers": "맑은 마음, 깨끗한 사랑, 죽음까지의 사랑",
+            "meaning": "다른 꽃들을 돋보이게 하는 안개초는 헌신적이고 맑은 영혼을 의미합니다. 타인을 챙기느라 정작 자신을 돌보지 못한 당신에게 '당신은 그 자체만으로도 충분히 주인공이 될 수 있다'는 위로를 보냅니다.",
+            "tags": [
+                "희생",
+                "배려",
+                "순수",
+                "주인공",
+                "위로"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=1200"
+        }
+    ]
 }

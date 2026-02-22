@@ -515,6 +515,19 @@ textarea:focus {
 }
 
 footer {
-    display: none;
-    /* 디자인 가이드에 맞춰 불필요한 영역 제거 */
+    padding: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+footer p {
+    font-size: 0.75rem;
+    color: #bbb;
+    margin-bottom: 0.3rem;
+}
+
+.source-credit {
+    font-size: 0.65rem;
+    color: #ddd;
+    font-style: italic;
 }
