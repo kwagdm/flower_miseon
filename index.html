@@ -27,17 +27,14 @@
                     <h2 class="main-title">오늘 당신의 마음은 어떤가요?</h2>
                     <p class="description">당신의 이야기를 들려주시면,<br>마음을 달래줄 꽃을 찾아드릴게요.</p>
 
+                    <!-- 이름 입력 제거: 익명 기반의 깊은 공감에 집중 -->
                     <div class="input-group">
-                        <textarea id="story-input"
-                            placeholder="이곳에 당신의 고민이나 이야기를 편하게 적어주세요. 사소한 이야기도 좋아요..."></textarea>
+                        <label for="story-input" class="input-label">당신의 오늘 하루는 어땠나요? (상세히 들려주실수록 더 깊은 위로가 찾아와요)</label>
+                        <textarea id="story-input" placeholder="사소한 일상도, 마음 한구석의 무거운 고민도 괜찮아요. 편하게 들려주세요."></textarea>
                         <p class="security-info">🔒 당신의 이야기는 안전하게 보호됩니다.</p>
                     </div>
 
-                    <div class="pagination">
-                        <span class="dot active"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                    </div>
+                    <!-- 불필요한 페이지네이션 제거하여 직관성 확보 -->
 
                     <button id="submit-btn" class="primary-btn">나만의 꽃 처방받기 ✨</button>
 
@@ -55,9 +52,10 @@
                         <div class="prescription-id">PRESCRIPTION NO. 042</div>
                     </header>
 
-                    <div class="magazine-hero">
-                        <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&q=80&w=1200"
-                            alt="처방된 꽃" id="result-flower-img">
+                    <div class="magazine-hero" style="display: none;">
+                        <img src="" alt="처방된 꽃" id="result-flower-img">
+                        <div class="photographer-credit hidden">Photo by <span id="photographer-name">Name</span> on
+                            Unsplash</div>
                         <div class="hero-overlay">
                             <h2 id="flower-name" class="serif">Smoke Tree</h2>
                             <p id="flower-latin">Cotinus coggygria</p>

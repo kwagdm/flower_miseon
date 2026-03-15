@@ -11,7 +11,7 @@
             "name": "안개나무",
             "latinName": "Cotinus coggygria",
             "languageOfFlowers": "희망의 내일, 위안",
-            "meaning": "안개나무는 멀리서 보면 자욱한 연기 속에 갇힌 것 같지만, 가까이서 보면 그 어떤 나무보다 폭신하고 부드러운 꽃을 피워냅니다. 번아웃과 막막함 속에 있는 당신에게 '흐릿함조차 아름다울 수 있다'는 위로를 건넵니다.",
+            "meaning": "안개나무는 멀리서 보면 자욱한 연기 속에 갇힌 것 같지만, 가까이서 보면 그 어떤 나무보다 폭신하고 부드러운 꽃을 피워냅니다. 번아웃과 막막함 속에 있는 당신에게 '흐릿함조차 아름다울 수 있다'는 위로를 건냅니다.",
             "tags": [
                 "번아웃",
                 "막막함",
@@ -19,7 +19,8 @@
                 "휴식",
                 "희망"
             ],
-            "imageUrl": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&q=80&w=1200"
+            "imageUrl": "https://images.unsplash.com/photo-1712097064916-244a60d37ec0?auto=format&fit=crop&q=80&w=1200",
+            "imagePhotographer": "Ronin"
         },
         {
             "id": "sunflower",
@@ -34,7 +35,8 @@
                 "성공",
                 "에너지"
             ],
-            "imageUrl": "https://images.unsplash.com/photo-1597423498219-04418210827d?auto=format&fit=crop&q=80&w=1200"
+            "imageUrl": "https://images.unsplash.com/photo-1707689126564-89ec7af6ce1f?auto=format&fit=crop&q=80&w=1200",
+            "imagePhotographer": "Zoshua Colah"
         },
         {
             "id": "lavender",
@@ -64,7 +66,8 @@
                 "행복",
                 "순수"
             ],
-            "imageUrl": "https://images.unsplash.com/photo-1510214643301-49635be9f70d?auto=format&fit=crop&q=80&w=1200"
+            "imageUrl": "https://images.unsplash.com/photo-1600705136264-38e0c7c70285?auto=format&fit=crop&q=80&w=1200",
+            "imagePhotographer": "Christian Papaux"
         },
         {
             "id": "freesia",
@@ -94,7 +97,8 @@
                 "진심",
                 "위안"
             ],
-            "imageUrl": "https://images.unsplash.com/photo-1563241527-3004b7be09d6?auto=format&fit=crop&q=80&w=1200"
+            "imageUrl": "https://images.unsplash.com/photo-1737121926121-d4d1e5d69ae7?auto=format&fit=crop&q=80&w=1200",
+            "imagePhotographer": "Vlad Kutepov"
         },
         {
             "id": "camellia",
@@ -109,7 +113,8 @@
                 "겨울",
                 "고결"
             ],
-            "imageUrl": "https://images.unsplash.com/photo-1589133182899-70335e670494?auto=format&fit=crop&q=80&w=1200"
+            "imageUrl": "https://images.unsplash.com/photo-1708958152450-e387aca17eaa?auto=format&fit=crop&q=80&w=1200",
+            "imagePhotographer": "Annie Spratt"
         },
         {
             "id": "tulip",
@@ -124,7 +129,8 @@
                 "생동감",
                 "배려"
             ],
-            "imageUrl": "https://images.unsplash.com/photo-1520323232427-6b62003c2148?auto=format&fit=crop&q=80&w=1200"
+            "imageUrl": "https://images.unsplash.com/photo-1751595173894-97001c2532f7?auto=format&fit=crop&q=80&w=1200",
+            "imagePhotographer": "Today'z Capture"
         },
         {
             "id": "gerbera",
@@ -139,7 +145,8 @@
                 "환희",
                 "치유"
             ],
-            "imageUrl": "https://images.unsplash.com/photo-1549413280-482f34237ebc?auto=format&fit=crop&q=80&w=1200"
+            "imageUrl": "https://images.unsplash.com/photo-1707318489673-e9f8c53cd43f?auto=format&fit=crop&q=80&w=1200",
+            "imagePhotographer": "Chinmay Dhope"
         },
         {
             "id": "baby-breath",
